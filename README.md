@@ -106,6 +106,76 @@ Keep Rust up to date with:
 rustup update
 ```
 
+### How to Run a Rust File?
+To run a Rust file, you need to use **Cargo** (Rust’s package manager) or the `rustc` compiler directly. Here’s how:
+
+### 1. Running a Rust File with Cargo
+
+Cargo is the recommended way to compile and run Rust projects because it handles dependencies and project structure easily.
+
+1. **Initialize a New Cargo Project**:
+   ```bash
+   cargo new project_name
+   cd project_name
+   ```
+
+2. **Write Code**: Edit the `src/main.rs` file to add your code.
+
+3. **Run the Code**:
+   ```bash
+   cargo run
+   ```
+
+   This will build and run your Rust project. Cargo compiles the project, resolves dependencies, and caches the build files in the `target` directory.
+
+### 2. Running a Single Rust File with `rustc`
+
+If you only have a single Rust file and don’t need a full Cargo project, you can use the `rustc` command directly:
+
+1. **Compile the File**:
+   ```bash
+   rustc filename.rs
+   ```
+
+   This will create an executable in the same directory.
+
+2. **Run the Executable**:
+   - On **Linux/macOS**:
+     ```bash
+     ./filename
+     ```
+   - On **Windows**:
+     ```bash
+     filename.exe
+     ```
+
+### Example
+If you have a file named `hello.rs` with the following code:
+```rust
+fn main() {
+    println!("Hello, Rust!");
+}
+```
+
+You can run it either by:
+1. Using Cargo:
+   ```bash
+   cargo new hello_project
+   cd hello_project
+   # Move hello.rs content into src/main.rs, then
+   cargo run
+   ```
+
+2. Using `rustc`:
+   ```bash
+   rustc hello.rs
+   ./hello    # On Windows: hello.exe
+   ```
+
+### Notes
+- Cargo is better for managing dependencies and is generally recommended for larger projects.
+- For quick tests and small scripts, `rustc` is simpler if you don’t need a full project structure.
+
 ### ⚙️ Configuration & Hardware
 
 - **Memory Requirements**: Rust is efficient, but at least 4GB of RAM is recommended for data processing tasks.
