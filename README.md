@@ -9,7 +9,7 @@ Welcome to **Rust for Data Engineering**! This repository demonstrates the power
   - [Installation](#installation)
   - [Running with Docker](#running-with-docker)
   - [Configuration & Hardware](#configuration--hardware)
-  - [Running a Rust File](#Running-a-Rust-File)
+  - [Running a Rust File](#running-a-rust-file)
 - [📚 Modules](#modules)
 - [🚀 Usage](#usage)
 - [📁 Examples](#examples)
@@ -239,7 +239,7 @@ cargo run --example real_time_processing
 - **YouTube Tutorials**:
   - [Rust for Beginners by Traversy Media](https://www.youtube.com/watch?v=zF34dRivLOw)
   - [Learn Rust Programming - Full Course by freeCodeCamp](https://www.youtube.com/watch?v=MsocPEZBd-M)
-  - [Rust Crash Course by Fireship](https://www.youtube.com/watch?v=Oxjw8bK3U_0)
+  - [Rust by Piyush Garg](https://www.youtube.com/watch?v=unRhxbFULII&list=PLinedj3B30sA_M0oxCRgFzPzEMX3CSfT5)
 
 ## 💬 Community & Resources
 
