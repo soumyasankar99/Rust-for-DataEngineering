@@ -9,6 +9,7 @@ Welcome to **Rust for Data Engineering**! This repository demonstrates the power
   - [Installation](#installation)
   - [Running with Docker](#running-with-docker)
   - [Configuration & Hardware](#configuration--hardware)
+  - [Running a Rust File](#Running-a-Rust-File)
 - [📚 Modules](#modules)
 - [🚀 Usage](#usage)
 - [📁 Examples](#examples)
