@@ -250,7 +250,7 @@ For data engineers who want to push the limits of efficiency and reliability, Ru
 
 ## 📌 Anything Else
 
-Data is growing exponentially, and handling it demands both speed and precision.
-```
+Data is growing exponentially, and handling it demands both speed and precision.Rust is the Perfect Language to meet the need .
+
 
 
